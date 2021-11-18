@@ -1,0 +1,32 @@
+h1 {
+    color:darkorchid;
+    font-style: oblique;
+}
+
+
+p {
+    color: brown;
+    font-style: italic;
+}
+
+#btn {
+    color:darkblue;
+    background-color: darkgray;
+    border-radius: 35px;
+    border-width: 4px;
+}
+
+#btnrain {
+    color:darkblue;
+    background-color: darkgray;
+    border-radius: 35px;
+    border-width: 4px;
+}
+
+#btncity {
+    color:darkblue;
+    background-color: darkgray;
+    border-radius: 35px;
+    border-width: 4px;
+}
+

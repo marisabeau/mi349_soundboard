@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript soundboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Satisfying Sounds at a Click of the Button!</h1>
+    <p>Click the buttons below for satisfying sounds!</p>
+    <button id="btn" onclick="playforest();">The Sounds of the Forest </button> 
+    <button id="btnrain" onclick="playrain();">Rain on</button>
+    <button id="btncity" onclick="playcity();">City Talk</button>
+    <script>
+        alert( 'Welcome to my soundboard!')
+        function playforest(){
+            var audio = new Audio('forest.mp3');
+            audio.play();
+        }
+        function playrain(){
+            var audio = new Audio('rainonplants.mp3');
+            audio.play();
+        }
+        function playcity(){
+            var audio = new Audio('citytalk.mp3');
+            audio.play();
+        }
+    </script>
+<script src="soundboard.js">
+</script>  
+    
+</body>
+</html>
